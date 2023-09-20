@@ -1,0 +1,74 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.container{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    width: 75%;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+nav.container{
+    background-color: limegreen;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+header > img{
+    width: 25%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1.title{
+    color: lime;
+    text-align: center;
+}
+
+h2.utenti{
+    display: inline-block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+section.monopattini{
+    margin: auto;
+    width: 70%;
+}
+
+div.buttons{
+    margin: auto;
+    width: 30%;
+}
+
+div.information{
+    color: white;
+    font-size: large;
+}
+
+.carica{
+    height: 20px;
+    border-radius: 5px;
+}
+
+.carica#prima{
+    width: 400px;
+    background-color: orange;
+}
+
+.carica#seconda{
+    width: 700px;
+    background-color: green;
+}
+
+.carica#terza{
+    width: 100px;
+    background-color: red;
+}
